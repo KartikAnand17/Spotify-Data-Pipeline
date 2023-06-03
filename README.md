@@ -7,7 +7,7 @@ In this project, we build an ETL pipeline using the spotify API on AWS. The pipe
 ![Architecture Diagram](https://github.com/KartikAnand17/Spotify-Data-Pipeline/blob/main/Architecture_spotify.png)
 
 ### About Dataset/API
-This API consists information about artist, albums and songs from the spotify application
+This API consists information about artist, albums and songs from the spotify application - [Spotify API](https://developer.spotify.com/documentation/web-api)
 
 ### Services Used
 1. **S3 (Simple Storage Service):** Amazon S3 is a highly scalable object storage service that can store and retrieve any amount of data from anywhere on the web. It is commonly used to store and distribute large media files, data backups, and static website files.
