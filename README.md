@@ -13,7 +13,7 @@ In this project, we build an ETL pipeline using the spotify API on AWS. The pipe
 
 3. **Cloud Watch:** Amazon cloudwatch is a monitoring service for AWS resources and the applications you run on them. You can use CloudWatch to collect and track metrics, collect and monitor log files, and set alarms.
 
-4.**Glue Crawler:** AWS Glue Crawler is a fully managed service that automatically crawls you data sources, identifies data formats and infers schema to create an AWS Glue Catalog.
+4. **Glue Crawler:** AWS Glue Crawler is a fully managed service that automatically crawls you data sources, identifies data formats and infers schema to create an AWS Glue Catalog.
 
 5. **Data Catalog :** AWS Glue Data Catalog is a fully managed metadata repository tbat makes it easy to discover and manage data in AWS. You can use the Glue Catalog with other services, such as Athena.
 
