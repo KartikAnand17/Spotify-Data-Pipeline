@@ -6,6 +6,9 @@ In this project, we build an ETL pipeline using the spotify API on AWS. The pipe
 ### Architecture
 ![Architecture Diagram](https://github.com/KartikAnand17/Spotify-Data-Pipeline/blob/main/Architecture_spotify.png)
 
+### About Dataset/API
+This API consists information about artist, albums and songs from the spotify application
+
 ### Services Used
 1. **S3 (Simple Storage Service):** Amazon S3 is a highly scalable object storage service that can store and retrieve any amount of data from anywhere on the web. It is commonly used to store and distribute large media files, data backups, and static website files.
 
@@ -18,3 +21,10 @@ In this project, we build an ETL pipeline using the spotify API on AWS. The pipe
 5. **Data Catalog :** AWS Glue Data Catalog is a fully managed metadata repository tbat makes it easy to discover and manage data in AWS. You can use the Glue Catalog with other services, such as Athena.
 
 6. **Amazon Athena :** Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. You can use Athena to analyze data in your Glue Data Catalog or in other S3 buckets.
+
+### Install Packages
+```
+pip install pandas
+pip install numpy 
+pip install spotipy
+```
